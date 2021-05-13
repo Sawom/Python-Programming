@@ -1,0 +1,21 @@
+from math import *
+num1 = float(input("Enter 1st number:  "))
+num2 = float(input("Enter 2nd number:  "))
+
+maximum = max(num1,num2)
+minimum = min(num1,num2)
+absoulate = abs(num1)
+power = pow(num1,num2)
+squareRoot = sqrt(num2)
+rnd = round(num1)
+flr = floor(num1)
+ceiling = ceil(num1)
+
+print("maximum of number1 and number2: ",maximum)
+print("minimum of number1 and number2: ",minimum)
+print("absoulate of number1: ",absoulate)
+print("power of number1 and number2: ",power)
+print("squareRoot of number1: ",squareRoot)
+print("round of number1: ",rnd)
+print("floor of number1: ",flr)
+print("ceiling of number1: ",ceiling)

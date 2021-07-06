@@ -1,0 +1,10 @@
+n = int(input("Enter a number: "))
+
+def fibonacci(n):
+    if n==1 or n==2:
+        return 1
+    else:
+        return fibonacci(n-2) +  fibonacci(n-1)
+
+result = fibonacci(n)
+print("fibonacci of",n,"=",result)
